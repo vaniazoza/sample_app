@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'users/new'
+ resources :users
 
   #get 'static_pages/...'
   # You can have the root of your site routed with "root"
